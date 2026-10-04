@@ -8,7 +8,7 @@
       "permanent": true
     },
     {
-      "source": "/men.html",
+      "source": "men.html",
       "destination": "/men",
       "permanent": true
     },
