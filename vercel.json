@@ -6,6 +6,31 @@
       "source": "/index.html",
       "destination": "/",
       "permanent": true
+    },
+    {
+      "source": "/men.html",
+      "destination": "/men",
+      "permanent": true
+    },
+    {
+      "source": "/women.html",
+      "destination": "/women",
+      "permanent": true
+    },
+    {
+      "source": "/kids.html",
+      "destination": "/kids",
+      "permanent": true
+    },
+    {
+      "source": "/couple.html",
+      "destination": "/couple",
+      "permanent": true
+    },
+    {
+      "source": "/product-detail.html",
+      "destination": "/product-detail",
+      "permanent": true
     }
   ],
   "builds": [
