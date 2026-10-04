@@ -1,23 +1,6 @@
 {
   "version": 2,
   "cleanUrls": true,
-  "redirects": [
-    {
-      "source": "/index.html",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "men.html",
-      "destination": "/men",
-      "permanent": true
-    },
-    {
-      "source": "/women.html",
-      "destination": "/women",
-      "permanent": true
-    }
-  ],
   "builds": [
     {
       "src": "server.js",
