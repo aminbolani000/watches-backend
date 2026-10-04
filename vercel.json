@@ -1,31 +1,6 @@
 {
-  "version": 2,
   "cleanUrls": true,
   "rewrites": [
-    { "source": "/men", "destination": "/men.html" },
-    { "source": "/women", "destination": "/women.html" },
-    { "source": "/kids", "destination": "/kids.html" },
-    { "source": "/couple", "destination": "/couple.html" },
-    { "source": "/product-detail", "destination": "/product-detail.html" }
-  ],
-  "redirects": [
-    { "source": "/index.html", "destination": "/", "permanent": true },
-    { "source": "/men.html", "destination": "/men", "permanent": true },
-    { "source": "/women.html", "destination": "/women", "permanent": true },
-    { "source": "/kids.html", "destination": "/kids", "permanent": true },
-    { "source": "/couple.html", "destination": "/couple", "permanent": true },
-    { "source": "/product-detail.html", "destination": "/product-detail", "permanent": true }
-  ],
-  "builds": [
-    {
-      "src": "server.js",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "server.js"
-    }
+    { "source": "/api/(.*)", "destination": "/server.js" }
   ]
 }
