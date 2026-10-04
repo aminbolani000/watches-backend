@@ -83,32 +83,3 @@ module.exports = app;
 //=====================
 
 
-const path = require('path');
-
-// Static files serve karne ke liye (HTML, CSS, JS, Images)
-app.use(express.static(__dirname));
-
-// Express Routes for HTML Pages
-app.get('/men', (req, res) => {
-    res.sendFile(path.join(__dirname, 'men.html'));
-});
-
-app.get('/women', (req, res) => {
-    res.sendFile(path.join(__dirname, 'women.html'));
-});
-
-app.get('/kids', (req, res) => {
-    res.sendFile(path.join(__dirname, 'kids.html'));
-});
-
-app.get('/couple', (req, res) => {
-    res.sendFile(path.join(__dirname, 'couple.html'));
-});
-
-app.get('/product-detail', (req, res) => {
-    res.sendFile(path.join(__dirname, 'product-detail.html'));
-});
-
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'index.html'));
-});
